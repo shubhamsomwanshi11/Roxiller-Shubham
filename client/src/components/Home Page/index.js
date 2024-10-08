@@ -84,7 +84,6 @@ class Dashboard extends Component {
       this.setState({ apiStatus: apiStatusConstant.success });
     } catch (error) {
       this.setState({ apiStatus: apiStatusConstant.failure });
-      console.log(error.message);
     }
   };
 
@@ -265,7 +264,7 @@ class Dashboard extends Component {
     return (
       <div className="box mb-5 mt-5">
         <h1 className="is-size-3 has-text-centered has-text-weight-bold">Transaction Dashboard</h1>
-
+        <p className="has-text-centered"><a href="https://github.com/shubhamsomwanshi11/Roxiller-Shubham/">https://github.com/shubhamsomwanshi11/Roxiller-Shubham/</a></p>
         <section className="input-section mt-5">
           <div className="is-flex mb-5">
             <input
