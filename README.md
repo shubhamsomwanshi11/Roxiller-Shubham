@@ -4,8 +4,8 @@ Demo : [shubhamsomwanshi11-roxiller.vercel.app](https://shubhamsomwanshi11-roxil
 
 This project is an assignment for **Roxiller Systems**, where an API has been built to fetch data from a third-party API, initialize a database with seed data, and provide various endpoints for listing transactions, gathering statistics, and generating charts.
 
-![Screenshot 1](https://drive.google.com/file/d/1F3t7mcauMrKvrMrtG5TdU3mwqcVAtE2U/preview)
-![Screenshot 2](https://drive.google.com/file/d/130Msi2dhKei93CNTJnhb45cE0FqG_xkq/preview)
+![Screenshot 1](https://i.ibb.co/wWh6q7L/Screenshot-2024-10-08-172118.png)
+![Screenshot 2](https://i.ibb.co/K7qY8pN/Screenshot-2024-10-08-172139.png)
 
 
 ## Features
