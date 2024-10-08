@@ -129,9 +129,9 @@ class Dashboard extends Component {
       );
 
     return (
-      <div className="columns">
+      <div className="columns is-multiline">
         {transactionsData.map((each) => (
-          <div className="column" key={each._id}>
+          <div className="column is-4" key={each._id}>
             <div className="ccard card column"  >
               <div className="card-content">
                 <div className="columns">
