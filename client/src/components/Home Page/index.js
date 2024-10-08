@@ -77,7 +77,7 @@ class Dashboard extends Component {
       this.setState({ apiStatus: apiStatusConstant.inprogress });
       const { selectedMonth, searchText, pageNo } = this.state;
       const response = await fetch(
-        `http://localhost:6562/api/transactions?month=${selectedMonth}&search=${searchText}&page=${pageNo}`
+        `https://roxiller-shubham.onrender.com/api/transactions?month=${selectedMonth}&search=${searchText}&page=${pageNo}`
       );
       const data = await response.json();
       this.setState({ transactionsData: data });
@@ -93,7 +93,7 @@ class Dashboard extends Component {
       this.setState({ apiStatusStatistics: apiStatusConstant.inprogress });
       const { selectedMonth } = this.state;
       const response = await fetch(
-        `http://localhost:6562/api/all?month=${selectedMonth}`
+        `https://roxiller-shubham.onrender.com/api/all?month=${selectedMonth}`
       );
       const data = await response.json();
       this.setState({
